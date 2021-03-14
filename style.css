@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color:  rgb(250, 203, 249);
+    text-align: center;
+}
+
+
+header {
+    background-color: plum;
+    width:100%;
+    height: 50px;
+    position: fixed;
+    z-index: 10;
+    margin-bottom: 105px;
+}
+
+.title {
+    float: left;
+    margin: 15px;
+    
+}
+
+.nav {
+    float: right;
+    display: flex;
+    list-style-type: none;
+    margin: 15px;
+}
+
+
+
+li {
+    margin: 0 10px;  
+}
+
+a {
+    text-decoration: none;
+}
+
+.intro {
+    height: 500px;
+    width: 500px;
+    margin: 100px auto 10px auto;
+    display: inline-flex;
+    background-image: url("yellowstone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+#prevposts {
+    height: 200px;
+    width: 500px;
+}
+.welcome {
+    background-color: rgba(231, 162, 93, .9);
+    width: 80%;
+    text-align: unset;
+}
+
+
+.currentcontainer {
+    background-color: rgb(231, 162, 93);
+    padding: 20px 0;
+    width: 80%;
+    margin: 60px auto;
+
+}
+
+#title {
+    display: inline-flex;
+    align-items: center;
+}
+
+#movie-poster {
+    height: 150px;
+    width: auto;
+}
+
+p {
+    margin:20px 100px;
+}
+
+h2 {
+    margin: 20px;
+}
+
+#selfie {
+    height: 200px;
+    width: auto;
+}
